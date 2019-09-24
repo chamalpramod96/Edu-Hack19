@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "678292266171",
+    "firebase_url": "https://fhack-34cbb.firebaseio.com",
+    "project_id": "fhack-34cbb",
+    "storage_bucket": "fhack-34cbb.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:678292266171:android:6899c11b3320326a0fdd9e",
+        "android_client_info": {
+          "package_name": "xyz.udesh.fhack"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "678292266171-m77b8c6fe36lb58mms6v0ead9qmbb6md.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "xyz.udesh.fhack",
+            "certificate_hash": "11606350c865169babf41b25e78a93d736b9cbe5"
+          }
+        },
+        {
+          "client_id": "678292266171-t06ptpi0n2jq0pucl0219bm0udehsatg.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBj0TuhvQ3A6soxumdeAB52aPH4YmZQ8JA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "678292266171-t06ptpi0n2jq0pucl0219bm0udehsatg.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
