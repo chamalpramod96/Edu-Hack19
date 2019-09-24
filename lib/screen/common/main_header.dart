@@ -22,9 +22,6 @@ class MainHeader extends StatelessWidget {
           ),
           background: Container(
             decoration:BoxDecoration(
-              image: DecorationImage(
-                image: NetworkImage('https://i1.wp.com/media.premiumtimesng.com/wp-content/files/sites/2/2016/09/Children-Digital-Age.jpg')
-              )
             ),
             // color: Colors.blue,
           )),

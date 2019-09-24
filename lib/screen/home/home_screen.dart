@@ -25,10 +25,10 @@ class _HomeScreenState extends State<HomeScreen> {
            child: Column(
              children: <Widget>[
                Padding(
-                 padding: EdgeInsets.all(70),
+                 padding: EdgeInsets.all(50),
                ),
                FlatButton(
-                 child: Text("Join Community"),
+                 child: Text("Join the Community"),
                  onPressed: (){
                    Navigator.push(context,MaterialPageRoute(
                      builder: (context)=>FlutterScreen()
