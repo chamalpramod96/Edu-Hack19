@@ -1,3 +1,4 @@
+import 'package:Fluttery/screen/chatbot_screend.dart';
 import 'package:Fluttery/screen/home/flutter_screen.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/rendering.dart';
@@ -56,6 +57,15 @@ class NavDrawer extends StatelessWidget {
               fontSize: 20
             ),),
             onTap: ()=>_launchURL()
+          ),
+          ListTile(
+            title: Text('Choose what you want',
+            style: TextStyle(
+              fontSize: 20
+            ),),
+            onTap: ()=>Navigator.push(context,MaterialPageRoute(
+              builder: (context)=>Chatbot()
+            ))
           ),
         ],
       ),

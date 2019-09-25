@@ -28,7 +28,7 @@ class _HomeScreenState extends State<HomeScreen> {
                  padding: EdgeInsets.all(50),
                ),
                FlatButton(
-                 child: Text("Join the Community"),
+                 child: Text("Join Flutter  Community"),
                  onPressed: (){
                    Navigator.push(context,MaterialPageRoute(
                      builder: (context)=>FlutterScreen()
