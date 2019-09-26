@@ -43,7 +43,7 @@ class NavDrawer extends StatelessWidget {
             padding: EdgeInsets.all(80),
           ),
           ListTile(
-            title: Text('Join Community',
+            title: Text('Join the Community',
             style: TextStyle(
               fontSize: 20
             ),),
@@ -52,14 +52,14 @@ class NavDrawer extends StatelessWidget {
             )),
           ),
           ListTile(
-            title: Text('Start Career',
+            title: Text('Start your Career',
             style: TextStyle(
               fontSize: 20
             ),),
             onTap: ()=>_launchURL()
           ),
           ListTile(
-            title: Text('Choose what you want',
+            title: Text('Choose what you learn',
             style: TextStyle(
               fontSize: 20
             ),),

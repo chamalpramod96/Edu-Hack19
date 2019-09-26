@@ -1,7 +1,6 @@
 import 'package:Fluttery/data/model/youtube_video.dart';
 import 'package:Fluttery/screen/home/news/video_web_view.dart';
 import 'package:flutter/material.dart';
-import 'package:markdown/markdown.dart' as Markdown;
 
 class VideoItem extends StatelessWidget {
   final YoutubeVideo video;

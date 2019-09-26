@@ -9,7 +9,7 @@ class VideoWebViewScreen extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return WebviewScaffold(
-      url: "https://www.youtube.com/watch?v=" + id,
+      url: "https://www.youtube.com/results?search_query=flutter",
       appBar: AppBar(
         title: Text("Video"),
       ),

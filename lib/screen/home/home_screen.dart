@@ -28,7 +28,26 @@ class _HomeScreenState extends State<HomeScreen> {
                  padding: EdgeInsets.all(50),
                ),
                FlatButton(
+                 color: Colors.white,
+                 shape: RoundedRectangleBorder(
+                   borderRadius: BorderRadius.circular(20.0)
+                 ),
                  child: Text("Join Flutter  Community"),
+                 onPressed: (){
+                   Navigator.push(context,MaterialPageRoute(
+                     builder: (context)=>FlutterScreen()
+                   ));
+                 },
+               ),
+               Padding(
+                 padding: EdgeInsets.all(10.0),
+               ),
+               FlatButton(
+                 color: Colors.white,
+                 shape: RoundedRectangleBorder(
+                   borderRadius: BorderRadius.circular(20.0)
+                 ),
+                 child: Text("Start your career"),
                  onPressed: (){
                    Navigator.push(context,MaterialPageRoute(
                      builder: (context)=>FlutterScreen()
