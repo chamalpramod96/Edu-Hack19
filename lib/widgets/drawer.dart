@@ -1,5 +1,6 @@
 import 'package:Fluttery/screen/chatbot_screend.dart';
 import 'package:Fluttery/screen/home/flutter_screen.dart';
+import 'package:Fluttery/screen/home/github/github_api_screen.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/rendering.dart';
 import 'package:flutter_webview_plugin/flutter_webview_plugin.dart';
@@ -79,6 +80,14 @@ class NavDrawer extends StatelessWidget {
                        ),
                        url: "https://dart.dev/",
                      )))),
+
+            ListTile(
+                title: Text(
+                  'Github',
+                  style: TextStyle(fontSize: 20),
+                ),
+                onTap: () => Navigator.push(context,
+                    MaterialPageRoute(builder: (context) => Github()))),
           ],
         ),
       ),
