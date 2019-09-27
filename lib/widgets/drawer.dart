@@ -2,6 +2,7 @@ import 'package:Fluttery/screen/chatbot_screend.dart';
 import 'package:Fluttery/screen/home/flutter_screen.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/rendering.dart';
+import 'package:flutter_webview_plugin/flutter_webview_plugin.dart';
 import 'package:url_launcher/url_launcher.dart';
 
 class NavDrawer extends StatelessWidget {
@@ -66,6 +67,18 @@ class NavDrawer extends StatelessWidget {
                 ),
                 onTap: () => Navigator.push(context,
                     MaterialPageRoute(builder: (context) => Chatbot()))),
+            ListTile(
+                title: Text(
+                  'Make your first step',
+                  style: TextStyle(fontSize: 20),
+                ),
+                onTap: () => Navigator.push(context,
+                    MaterialPageRoute(builder: (context) => WebviewScaffold(
+                       appBar: AppBar(
+                         title: Text("Make your first step"),
+                       ),
+                       url: "https://dart.dev/",
+                     )))),
           ],
         ),
       ),
