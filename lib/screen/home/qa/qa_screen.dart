@@ -3,6 +3,7 @@ import 'package:Fluttery/screen/common/loader.dart';
 import 'package:flutter/material.dart';
 import 'package:Fluttery/data/remote/stackoverflow_api.dart';
 import 'package:Fluttery/data/model/stack_question.dart';
+import 'package:flutter_webview_plugin/flutter_webview_plugin.dart';
 import 'qa_list_tile.dart';
 
 class QAScreen extends StatelessWidget {
@@ -11,6 +12,16 @@ class QAScreen extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+      floatingActionButton: FloatingActionButton(
+        onPressed: (){
+          Navigator.push(context, MaterialPageRoute(
+            builder: (context)=> WebviewScaffold(
+            url: "https://stackoverflow.com/questions/ask",
+          )
+          ));
+        },
+        child: Icon(Icons.code),
+      ),
       body: NestedScrollView(
         headerSliverBuilder: (BuildContext context, bool innerBoxIsScrolled) {
           return <Widget>[Header("Q&A")];
