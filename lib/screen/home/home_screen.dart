@@ -3,6 +3,7 @@ import 'package:Fluttery/screen/common/main_header.dart';
 import 'package:Fluttery/screen/home/flutter_screen.dart';
 import 'package:Fluttery/widgets/drawer.dart';
 import 'package:flutter/material.dart';
+import 'package:flutter_webview_plugin/flutter_webview_plugin.dart';
 
 
 class HomeScreen extends StatefulWidget {
@@ -50,7 +51,12 @@ class _HomeScreenState extends State<HomeScreen> {
                  child: Text("Start your career"),
                  onPressed: (){
                    Navigator.push(context,MaterialPageRoute(
-                     builder: (context)=>FlutterScreen()
+                     builder: (context)=>WebviewScaffold(
+                       appBar: AppBar(
+                         title: Text("Start your career"),
+                       ),
+                       url: "https://www.fiverr.com/?utm_source=19772&utm_medium=cx_affiliate&utm_campaign=BG2&cxd_token=19772_1033903&show_join=true",
+                     )
                    ));
                  },
                ),
