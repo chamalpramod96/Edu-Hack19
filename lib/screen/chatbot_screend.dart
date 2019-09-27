@@ -90,7 +90,7 @@ class _HomePageDialogflowV2 extends State<Chatbot> {
         title: Text("ChatBot"),
         actions: <Widget>[
           FlatButton(
-            child: Icon(Icons.exit_to_app),
+            child: Icon(Icons.exit_to_app,color: Colors.blue,),
             onPressed: (){
               Navigator.push(context,MaterialPageRoute(
                 builder: (context)=>HomeScreen()
