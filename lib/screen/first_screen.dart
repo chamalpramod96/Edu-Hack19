@@ -44,7 +44,7 @@ class _FirstScreenState extends State<FirstScreen> {
       ));
 
       Fluttertoast.showToast(
-        msg: "This is Center Short Toast",
+        msg: "Welcome to edu hack19",
         toastLength: Toast.LENGTH_SHORT,
         gravity: ToastGravity.BOTTOM,
         timeInSecForIos: 1,

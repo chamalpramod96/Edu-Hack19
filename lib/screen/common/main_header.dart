@@ -8,7 +8,7 @@ class MainHeader extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return SliverAppBar(
-      expandedHeight: 240.0,
+      expandedHeight: 220.0,
       floating: false,
       pinned: false,
       flexibleSpace: FlexibleSpaceBar(
